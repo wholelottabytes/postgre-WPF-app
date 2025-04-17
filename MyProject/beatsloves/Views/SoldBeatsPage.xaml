@@ -1,0 +1,59 @@
+﻿<Page x:Class="beatsloves.Views.SoldBeatsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:viewmodels="clr-namespace:beatsloves.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:SoldBeatsPageViewModel}"
+      mc:Ignorable="d"
+      Background="#272B2F"
+      Title="Sold Beats">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок -->
+            <TextBlock Text="Sold Beats" FontSize="28" FontWeight="Bold" Foreground="White" 
+                       HorizontalAlignment="Center" Margin="0,10" />
+
+            <Border Grid.Row="1" Width="500" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                    Background="#212529" Padding="20" CornerRadius="15">
+                <StackPanel>
+
+                    <!-- Изображение пользователя -->
+                    <StackPanel Margin="0,10" HorizontalAlignment="Center">
+                        <Image Source="{Binding ImageSource}" Height="150" Width="150" Margin="10" />
+                    </StackPanel>
+
+                    <!-- Кнопка обновления изображения -->
+                    <Button Content="New img" Command="{Binding UpdateUserImageCommand}" 
+                            Width="200" Height="40" Margin="0,10" FontSize="16" Background="#0ccafb" 
+                            Foreground="White" BorderBrush="Transparent" HorizontalAlignment="Center"/>
+
+                    <!-- Список продаж -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Sold Beats List" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16" 
+                                   Margin="0,10"/>
+                        <ListView ItemsSource="{Binding SoldBeats}" HorizontalAlignment="Stretch" 
+                                  VerticalAlignment="Stretch" Height="300">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
+                                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Title}" Width="120"/>
+                                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price, StringFormat=N2}" Width="50"/>
+                                    <GridViewColumn Header="Date" DisplayMemberBinding="{Binding PurchaseDate, StringFormat=dd.MM.yyyy}" Width="150"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </StackPanel>
+                    <Button  Width="200" Height="40" Margin="0,10" FontSize="16" Background="#0ccafb" 
+ Foreground="White" BorderBrush="Transparent" HorizontalAlignment="Center" Click="BackButton_Click" Content="Back" />
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Page>

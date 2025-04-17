@@ -1,0 +1,39 @@
+﻿<Page x:Class="beatsloves.Views.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="#272B2F"
+      Title="LoginPage">
+
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Border Background="#212529" Padding="20" CornerRadius="15">
+            <StackPanel HorizontalAlignment="Center" Width="300">
+                <!-- Логин -->
+                <TextBlock Text="Login:" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16" Margin="0,0,0,5"/>
+                <TextBox x:Name="UsernameTextBox" 
+                         Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" 
+                         Background="#3A3F44" Foreground="White" BorderBrush="Transparent" 
+                         Padding="10" Margin="0,0,0,10" KeyDown="UsernameTextBox_KeyDown"/>
+
+                <!-- Пароль -->
+                <TextBlock Text="Password:" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16" Margin="0,10,0,5"/>
+                <PasswordBox x:Name="PasswordBox" 
+                             Background="#3A3F44" Foreground="White" BorderBrush="Transparent" 
+                             Padding="10" Margin="0,0,0,10" PasswordChanged="PasswordBox_PasswordChanged" 
+                             KeyDown="PasswordBox_KeyDown"/>
+
+                <!-- Кнопка "Зарегистрироваться" -->
+                <Button Content="Sign up" Command="{Binding RegisterCommand}" Width="140" Height="40"
+                        Background="#0ccafb" Foreground="White" FontWeight="Bold"  BorderBrush="Transparent" Margin="0,10" 
+                        HorizontalAlignment="Center" />
+
+                <!-- Кнопка "Войти" -->
+                <Button x:Name="LoginButton" Content="Sign in" Command="{Binding LoginCommand}" Width="140" Height="40"
+                        Background="#0ccafb" Foreground="White" FontWeight="Bold" BorderBrush="Transparent" Margin="0,10" 
+                        HorizontalAlignment="Center" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

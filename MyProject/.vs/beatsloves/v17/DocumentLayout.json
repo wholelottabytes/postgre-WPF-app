@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem\\Course proj\\MyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\soldbeatspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\soldbeatspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\beatdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\beatdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\addbeatpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\addbeatpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\addbeatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\addbeatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\addbeatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\addbeatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\beatdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\beatdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\beatdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\beatdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\soldbeatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\soldbeatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\soldbeatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\soldbeatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\images\\img_home.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\images\\img_home.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\images\\img_customer.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\images\\img_customer.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\models\\beat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\models\\beat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|d:\\5sem\\course proj\\myproject\\beatsloves\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4C237-1E1F-4664-B1B0-FFE1BCC7FC8D}|beatsloves\\beatsloves.csproj|solutionrelative:beatsloves\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.config",
+              "RelativeDocumentMoniker": "beatsloves\\App.config",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.config",
+              "RelativeToolTip": "beatsloves\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-16T14:08:51.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\App.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.xaml",
+              "RelativeToolTip": "beatsloves\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T13:37:38.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\App.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\App.xaml.cs",
+              "RelativeToolTip": "beatsloves\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:37:36.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\MainWindow.xaml.cs",
+              "RelativeToolTip": "beatsloves\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:36:50.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\MainWindow.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\MainWindow.xaml",
+              "RelativeToolTip": "beatsloves\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T13:36:40.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "beatsloves\\Views\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T12:07:14.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "img_home.png",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Images\\img_home.png",
+              "RelativeDocumentMoniker": "beatsloves\\Images\\img_home.png",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Images\\img_home.png",
+              "RelativeToolTip": "beatsloves\\Images\\img_home.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-12T20:21:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "img_customer.png",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Images\\img_customer.png",
+              "RelativeDocumentMoniker": "beatsloves\\Images\\img_customer.png",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Images\\img_customer.png",
+              "RelativeToolTip": "beatsloves\\Images\\img_customer.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-12T20:21:08.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddBeatPage.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\AddBeatPage.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\AddBeatPage.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\AddBeatPage.xaml.cs",
+              "RelativeToolTip": "beatsloves\\Views\\AddBeatPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:53:32.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:41:00.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoldBeatsPageViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\SoldBeatsPageViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\SoldBeatsPageViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\SoldBeatsPageViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\SoldBeatsPageViewModel.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:38:34.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "beatsloves\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:37:04.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SoldBeatsPage.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\SoldBeatsPage.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\SoldBeatsPage.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\SoldBeatsPage.xaml.cs",
+              "RelativeToolTip": "beatsloves\\Views\\SoldBeatsPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:36:43.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SoldBeatsPage.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\SoldBeatsPage.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\SoldBeatsPage.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\SoldBeatsPage.xaml",
+              "RelativeToolTip": "beatsloves\\Views\\SoldBeatsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T19:36:35.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Models\\Session.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Models\\Session.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Models\\Session.cs",
+              "RelativeToolTip": "beatsloves\\Models\\Session.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:21:44.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:14:17.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "beatsloves\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvy0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:00:25.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddBeatPage.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\AddBeatPage.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\AddBeatPage.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\AddBeatPage.xaml",
+              "RelativeToolTip": "beatsloves\\Views\\AddBeatPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T17:55:53.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddBeatPageViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\AddBeatPageViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\AddBeatPageViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\AddBeatPageViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\AddBeatPageViewModel.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAgwJ0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:43:59.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Beat.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Models\\Beat.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Models\\Beat.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Models\\Beat.cs",
+              "RelativeToolTip": "beatsloves\\Models\\Beat.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:34:32.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BeatDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\BeatDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\BeatDetailPage.xaml.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\BeatDetailPage.xaml.cs",
+              "RelativeToolTip": "beatsloves\\Views\\BeatDetailPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:26:21.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\MainPage.xaml",
+              "RelativeToolTip": "beatsloves\\Views\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T05:26:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABoCAAAAAAAAAAAAAMoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:17:44.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BeatDetailViewModel.cs",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\BeatDetailViewModel.cs",
+              "RelativeDocumentMoniker": "beatsloves\\ViewModels\\BeatDetailViewModel.cs",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\ViewModels\\BeatDetailViewModel.cs",
+              "RelativeToolTip": "beatsloves\\ViewModels\\BeatDetailViewModel.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAgwJgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:17:43.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BeatDetailPage.xaml",
+              "DocumentMoniker": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\BeatDetailPage.xaml",
+              "RelativeDocumentMoniker": "beatsloves\\Views\\BeatDetailPage.xaml",
+              "ToolTip": "D:\\5sem\\Course proj\\MyProject\\beatsloves\\Views\\BeatDetailPage.xaml",
+              "RelativeToolTip": "beatsloves\\Views\\BeatDetailPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-15T05:18:59.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

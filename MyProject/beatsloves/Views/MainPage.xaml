@@ -1,0 +1,170 @@
+﻿<Page x:Class="beatsloves.Views.MainPage"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:local="clr-namespace:beatsloves.Models" 
+     xmlns:viewmodels="clr-namespace:beatsloves.ViewModels" 
+     d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
+     mc:Ignorable="d"
+     xmlns:serv="clr-namespace:beatsloves.Services"
+     Height="600" Width="1080"
+     FontFamily="Segoe UI"
+     Title="Beat Store">
+    <Page.Resources>
+        <serv:UserIdEditVisibilityConverter x:Key="UserIdEditVisibilityConverter" />
+        <serv:UserIdDeleteVisibilityConverter x:Key="UserIdDeleteVisibilityConverter" />
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Верхняя панель с заголовком, аватаром, ID, кнопкой выхода и поиском -->
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" Background="#272B2F">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="400" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Заголовок слева -->
+            <TextBlock Text="Beat Store" FontSize="28" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Foreground="White" 
+FontWeight="Bold" />
+
+            <!-- Поле поиска по центру -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox Width="250" Height="30" Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}" 
+             VerticalAlignment="Center" Margin="5" />
+                <!-- Кнопка для выполнения поиска -->
+                <Button FontWeight="Bold" Content="Search" Width="75" Height="30" 
+            Command="{Binding LoadMySearchCommand}" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Аватар, UserID и кнопка выхода справа -->
+            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10">
+                <Button FontWeight="Bold" Content="Add" Width="40" Height="30" Command="{Binding OpenAddBeatPageCommand}" VerticalAlignment="Center"/>
+                <Button  FontWeight="Bold" Content="+Balance" Width="70" Height="30" Command="{Binding IncreaseBalanceCommand}" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <!-- Аватар -->
+                <Button  Width="30" Height="30" Margin="10,0,10,0" Command="{Binding OpenSoldBeatsPageCommand}">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="30" Height="30" CornerRadius="15">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="{Binding UserImage}" Stretch="UniformToFill" />
+                                </Border.Background>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock Text="{Binding UserBalance}" Foreground="White" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" Margin="0,0,10,0" />
+
+                <!-- Кнопка выхода -->
+                <Button FontWeight="Bold" Content="Logout" Width="80" Height="30" Click="BackButton_Click" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Левое меню с кнопками -->
+        <StackPanel  Grid.Row="1" Grid.Column="0" Background="#272B2F">
+            <!-- Main Page -->
+            <RadioButton GroupName="Menu" IsChecked="True" Command="{Binding LoadMainBeatsCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Images/img_home.png" Width="26" Height="26" Margin="10,0,5,0"/>
+                    <TextBlock FontSize="20" 
+             Text="Main page" 
+VerticalAlignment="Center" 
+Foreground="White" 
+FontWeight="Bold"/>
+                </StackPanel>
+            </RadioButton>
+            <RadioButton GroupName="Menu"  Command="{Binding LoadMyBeatsCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Images/img_customer.png" Width="26" Height="26" Margin="10,0,5,0"/>
+                    <TextBlock FontSize="20" 
+             Text="My beats" 
+VerticalAlignment="Center" 
+Foreground="White" 
+FontWeight="Bold"/>
+                </StackPanel>
+            </RadioButton>
+            <RadioButton GroupName="Menu"  Command="{Binding LoadPurchasesCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Images/img_transaction.png" Width="26" Height="26" Margin="10,0,5,0"/>
+                    <TextBlock FontSize="20" 
+             Text="Purchases" 
+VerticalAlignment="Center" 
+Foreground="White" 
+FontWeight="Bold"/>
+                </StackPanel>
+            </RadioButton>
+        </StackPanel>
+
+        <!-- Список битов -->
+        <ScrollViewer Grid.Row="1" Grid.Column="1" Background="#212529">
+            <StackPanel>
+                <TextBlock Text="Your Beats" Margin="10" FontSize="22" Foreground="White" 
+FontWeight="Bold"/>
+                <StackPanel Margin="20 0">
+                    <ItemsControl x:Name="ListViewBeats" ItemsSource="{Binding Beats}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Button  Margin="0,0,1,1" Style="{StaticResource CustomButtonStyle2}" Command="{Binding DataContext.OpenBeatDetailCommand, RelativeSource={RelativeSource AncestorType=Page}}" 
+                CommandParameter="{Binding}">
+                                        <Border Margin="10" Width="149" Height="220" BorderBrush="#DDDDDD" BorderThickness="1">
+                                            <StackPanel>
+                                                <Border Width="140" Height="140" CornerRadius="5" Margin="5">
+                                                    <Border.Effect>
+                                                        <DropShadowEffect ShadowDepth="1"/>
+                                                    </Border.Effect>
+                                                    <Border.Background>
+                                                        <ImageBrush ImageSource="{Binding Beatimg}"/>
+                                                    </Border.Background>
+                                                </Border>
+                                                <TextBlock Margin="5" Text="{Binding Price, StringFormat={}{0:C}}" FontSize="17" FontFamily="Franklin Gothic Medium"/>
+                                                <TextBlock Margin="5 0" Text="{Binding Title}" FontSize="15" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </Button>
+
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="5">
+                                        <Button FontWeight="Bold" Content="Edit" Margin="0,0,5,0"
+            Command="{Binding DataContext.OpenEditBeatPageCommand, RelativeSource={RelativeSource AncestorType=Page}}" 
+            CommandParameter="{Binding}" 
+            Visibility="{Binding UserId, Converter={StaticResource UserIdEditVisibilityConverter}}" Style="{StaticResource CustomButtonStyle}"  />
+
+                                        <!-- Кнопка "Delete" видна либо для конкретного UserId, либо если RoleID == 1 -->
+                                        <Button FontWeight="Bold" Content="Delete" 
+            Command="{Binding DataContext.DeleteBeatCommand, RelativeSource={RelativeSource AncestorType=Page}}" 
+            CommandParameter="{Binding}" 
+            Visibility="{Binding UserId, Converter={StaticResource UserIdDeleteVisibilityConverter}}"
+                                                Style="{StaticResource CustomButtonStyle}">
+                                        </Button>
+                                    </StackPanel>
+                                   
+                                </Grid>
+                                
+                            </DataTemplate>
+
+                        </ItemsControl.ItemTemplate>
+                       
+
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10" Grid.Row="2" Grid.Column="1">
+                    <TextBlock Text="{Binding CurrentPage}" FontSize="16" VerticalAlignment="Center" Foreground="White" Margin="10"/>
+                    <Button Content="Next" Width="100" Command="{Binding NextPageCommand}" Margin="5"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

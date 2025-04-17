@@ -1,0 +1,117 @@
+﻿<Page x:Class="beatsloves.Views.AddBeatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="#272B2F"
+      Title="Add New Beat"
+      xmlns:local="clr-namespace:beatsloves.ViewModels">
+
+
+   
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="{Binding PageTitle}" FontSize="28" FontWeight="Bold" Foreground="White" 
+                       HorizontalAlignment="Center" Margin="0,10" />
+
+            <Border Grid.Row="1" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Background="#212529" Padding="20" CornerRadius="15">
+                <StackPanel>
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Title" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <Border Background="#121212" BorderBrush="#0ccafb" BorderThickness="1" CornerRadius="10" Margin="0,5">
+                            <TextBox  Style="{StaticResource NoBorderTextBoxStyle}" BorderBrush="Transparent" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" Foreground="#FFFFFF" Background="Transparent" Height="30"/>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Description" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <Border Background="#121212" BorderBrush="#0ccafb" BorderThickness="1" CornerRadius="10" Margin="0,5">
+                            <TextBox Style="{StaticResource NoBorderTextBoxStyle}" Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" BorderBrush="Transparent"  Foreground="#FFFFFF" Background="Transparent" Height="80" TextWrapping="Wrap"/>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Price Field -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Price" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <Border Background="#121212" BorderBrush="#0ccafb" BorderThickness="1" CornerRadius="10" Margin="0,5">
+                            <TextBox TextChanged="PriceTextBox_TextChanged"  PreviewTextInput="PriceTextBox_PreviewTextInput" Style="{StaticResource NoBorderTextBoxStyle}" BorderBrush="Transparent" Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Foreground="#FFFFFF" Background="Transparent" Height="30"/>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Type ID Field -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Type ID" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <Border Background="#121212" BorderBrush="Transparent" BorderThickness="1" CornerRadius="10" Margin="0,5">
+                            <ComboBox ItemsSource="{Binding LicenseTypes}"
+          DisplayMemberPath="Name"
+          SelectedItem="{Binding SelectedLicenseType, Mode=TwoWay}" />
+
+
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Beat File Path Field -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Select Beat File" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Border Background="#121212" BorderBrush="#0ccafb" BorderThickness="1" CornerRadius="10" Margin="0,5" Width="250">
+                                <TextBox Style="{StaticResource NoBorderTextBoxStyle}" BorderBrush="Transparent" Text="{Binding Beatway, UpdateSourceTrigger=PropertyChanged}" Foreground="#FFFFFF" Background="Transparent" Height="30" IsReadOnly="True"/>
+                            </Border>
+                            <Button Content="Browse" Width="70" Margin="5,0,0,0" Click="SelectBeatFile_Click" Height="30" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Image File Path Field -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="Select Image File" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Border Background="#121212" BorderBrush="#0ccafb" BorderThickness="1" CornerRadius="10" Margin="0,5" Width="250">
+                                <TextBox Style="{StaticResource NoBorderTextBoxStyle}" BorderBrush="Transparent" Text="{Binding Beatimg, UpdateSourceTrigger=PropertyChanged}" Foreground="#FFFFFF" Background="Transparent" Height="30" IsReadOnly="True"/>
+                            </Border>
+                            <Button Content="Browse" Width="70" Margin="5,0,0,0" Click="SelectImageFile_Click"  Height="30"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Tags Field -->
+                    <StackPanel Margin="0,10">
+                        <TextBlock HorizontalAlignment="Center" Text="Tags" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+                        <StackPanel>
+                            <Border Background="#121212" BorderBrush="Transparent" BorderThickness="1" CornerRadius="10" Margin="0,5" Width="250">
+                                <!-- Используем тот же TextBox для отображения текущих тегов -->
+                                <TextBox Text="{Binding Tags, UpdateSourceTrigger=PropertyChanged}" />
+                            </Border>
+
+                            <TextBlock Text="Search Tags" HorizontalAlignment="Center" Foreground="#FFFFFF" FontWeight="Bold" FontSize="16"/>
+
+                            <!-- Поле ввода для тегов -->
+                            <TextBox Text="{Binding CurrentTagInput, UpdateSourceTrigger=PropertyChanged}" Width="200" />
+
+                            <!-- ComboBox для отображения предложений тегов -->
+                            <ListBox ItemsSource="{Binding SuggestedTags}" 
+                 Width="200" 
+                 Height="100" 
+                 SelectionChanged="TagSuggestionSelected" />
+                        </StackPanel>
+                    </StackPanel>
+                    <Button  Width="200" Height="40" Margin="0,10" FontSize="16" Background="#0ccafb" 
+Foreground="White" BorderBrush="Transparent" HorizontalAlignment="Center" Click="BackButton_Click" Content="Back" />
+                </StackPanel>
+            </Border>
+
+            <!-- Submit Button -->
+            <Button Grid.Row="2" Content="{Binding ButtonText}" Width="120" Height="40" Margin="0,20" FontSize="16"
+                    Background="#0ccafb" Foreground="White" BorderBrush="Transparent" 
+                    HorizontalAlignment="Center" Command="{Binding AddOrEditBeatCommand}" />
+           
+        </Grid>
+    </ScrollViewer>
+</Page>
